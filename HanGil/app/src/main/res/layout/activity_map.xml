@@ -6,13 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/toMyPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Map!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="myPage 가기"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="학교 지도 화면"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="각 위치 클릭하면 대여실 현황 페이지로 이동"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="380dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
