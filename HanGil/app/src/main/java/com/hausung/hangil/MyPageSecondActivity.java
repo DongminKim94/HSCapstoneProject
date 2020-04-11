@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MyPageSecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +20,10 @@ public class MyPageSecondActivity extends AppCompatActivity {
         logoutAndToStartPage.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
+                        //로그아웃 코드 구현
+                        FirebaseAuth.getInstance().signOut();
                         //SeminarShowActivity로 가는 인텐트 생성
                         Intent intent = new Intent(getApplication(), StartActivity.class);
-                        //로그아웃 코드 구현
                         startActivity(intent);
                     }
                 }
