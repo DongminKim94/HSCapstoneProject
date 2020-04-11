@@ -31,6 +31,12 @@
             android:name=".ResetPasswordActivity"
             android:parentActivityName=".LoginActivity" />
         <activity android:name=".MapActivity" />
+        <activity android:name=".MyPageActivity" />
+        <activity android:name=".MoreActivity" />
+        <activity android:name=".SeminarShowActivity" />
+        <activity android:name=".ReservationActivity" />
+        <activity android:name=".MyPageSecondActivity" />
+        <activity android:name=".VersionViewActivity" />
     </application>
 
 </manifest>

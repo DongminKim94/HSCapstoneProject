@@ -7,30 +7,34 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/toSeminarShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="80dp"
+        android:text="각 위치 클릭하면 대여실 현황 페이지로 이동"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
         android:id="@+id/toMyPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
         android:text="myPage 가기"
-        tools:layout_editor_absoluteX="285dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="280dp"
         android:text="학교 지도 화면"
-        android:textAlignment="center"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="281dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="각 위치 클릭하면 대여실 현황 페이지로 이동"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="380dp" />
+        android:textSize="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
