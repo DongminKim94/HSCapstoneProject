@@ -3,11 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_material_light"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
         android:id="@+id/deleteAndToStart"
+        android:background="#65AFF8"
+        android:textColor="#F7F7FA"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="106dp"
@@ -18,6 +22,9 @@
 
     <Button
         android:id="@+id/logoutAndToStart"
+        android:background="#65AFF8"
+        android:textColor="#F7F7FA"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="106dp"
@@ -28,6 +35,9 @@
 
     <Button
         android:id="@+id/toVersionView"
+        android:background="#65AFF8"
+        android:textColor="#F7F7FA"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="106dp"
@@ -35,4 +45,5 @@
         android:text="버전 정보(버전 정보 페이지로 이동)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoutAndToStart" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
