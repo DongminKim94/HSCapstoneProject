@@ -16,9 +16,12 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.r0adkll.slidr.Slidr;
+import com.r0adkll.slidr.model.SlidrInterface;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 public class LoginActivity extends AppCompatActivity {
+    private SlidrInterface slidr;
 
     MaterialEditText email, password;
     Button btn_login;
@@ -30,6 +33,8 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //스와이프 코드
+        slidr = Slidr.attach(this);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -56,6 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                 String txt_email = email.getText().toString();
                 String txt_password = password.getText().toString();
 
+                //필수 로그인 정보 입력을 충족하지 않을 때
                 if (TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)){
                     Toast.makeText(LoginActivity.this, "All fileds are required", Toast.LENGTH_SHORT).show();
                 } else {

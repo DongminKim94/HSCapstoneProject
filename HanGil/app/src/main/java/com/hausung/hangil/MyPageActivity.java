@@ -7,11 +7,17 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.r0adkll.slidr.Slidr;
+import com.r0adkll.slidr.model.SlidrInterface;
+
 public class MyPageActivity extends AppCompatActivity {
+    private SlidrInterface slidr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mypage);
+        //스와이프 코드
+        slidr = Slidr.attach(this);
 
         //로그아웃, 버전정보, 회원탈퇴 페이지로 이동
         Button toMyPage2 = (Button) findViewById(R.id.toMyPageSecond);

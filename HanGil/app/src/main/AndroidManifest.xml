@@ -35,8 +35,10 @@
         <activity android:name=".MoreActivity" />
         <activity android:name=".SeminarShowActivity" />
         <activity android:name=".ReservationActivity" />
-        <activity android:name=".MyPageSecondActivity" />
-        <activity android:name=".VersionViewActivity" />
+        <activity android:name=".MyPageSecondActivity"
+            android:theme="@style/AppTheme.SlidrActivityTheme"/>
+        <activity android:name=".VersionViewActivity"
+            android:theme="@style/AppTheme.SlidrActivityTheme"/>
     </application>
 
 </manifest>
