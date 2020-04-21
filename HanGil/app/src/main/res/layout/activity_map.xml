@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
     <RelativeLayout
     tools:context=".MainActivity"
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_material_light"
+    android:layout_width="match_parent"
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:background="@color/background_material_light"
@@ -14,7 +23,13 @@
         android:layout_width="match_parent"
         android:id="@+id/photoView"/>
 
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <Button
+<<<<<<< HEAD
         android:layout_height="60dp"
         android:layout_width="30dp"
         android:background="@drawable/border2"
@@ -37,16 +52,49 @@
         android:id="@+id/toSchoolLibraryStudyRoom"
         android:layout_marginTop="300dp"
         android:layout_marginStart="210dp"/>
+=======
+        android:id="@+id/toSangsangVillageSeminaroom"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/border2" />
+
+    <Button
+        android:id="@+id/toSansangSeminaroom"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/border2" />
+
+    <Button
+        android:id="@+id/toSchoolLibraryStudyRoom"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border2" />
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
 
     <Button
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_width="wrap_content"
         android:id="@+id/toMyPage"
+=======
+        android:layout_marginStart="300dp"
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
         android:layout_marginTop="32dp"
         android:layout_marginStart="300dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         android:text="myPage 가기"
         android:layout_marginEnd="16dp"/>
+=======
+        app:layout_constraintTop_toTopOf="parent" />
+
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
 
 </RelativeLayout>

@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.hausung.hangil.Map.MapActivity;
+import com.hausung.hangil.Reservation.SangsangVillageReservationActivity;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -47,7 +49,7 @@ public class StartActivity extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(StartActivity.this, RegisterActivity.class));
+                startActivity(new Intent(StartActivity.this, SangsangVillageReservationActivity.class));
             }
         });
     }

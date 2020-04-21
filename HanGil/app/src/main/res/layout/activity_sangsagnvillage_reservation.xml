@@ -15,7 +15,15 @@
         android:text="신청(학교 지도 화면으로 이동)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="152dp"
+        android:text="상상빌리지"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"

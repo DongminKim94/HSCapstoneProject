@@ -1,14 +1,23 @@
 package com.hausung.hangil.Map;
 
+<<<<<<< HEAD
+=======
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+<<<<<<< HEAD
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+=======
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
 import com.github.chrisbanes.photoview.PhotoView;
 import com.hausung.hangil.MyPage.MyPageActivity;
 import com.hausung.hangil.R;

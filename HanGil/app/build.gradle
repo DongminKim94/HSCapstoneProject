@@ -38,7 +38,13 @@ dependencies {
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
 
     implementation 'com.r0adkll:slidableactivity:2.1.0'
+<<<<<<< HEAD
 
     //zoom
     implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+=======
+    //zoom
+    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
 }

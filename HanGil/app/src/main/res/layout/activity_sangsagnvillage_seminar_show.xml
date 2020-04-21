@@ -12,7 +12,7 @@
         android:layout_height="25dp"
         android:layout_marginStart="124dp"
         android:layout_marginTop="220dp"
-        android:text="세미나실 현황 파악"
+        android:text="상상 빌리지 세미나실 현황 파악"
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"

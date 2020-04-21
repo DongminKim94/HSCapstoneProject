@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <module external.linked.project.id="HanGil" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+=======
+<module external.linked.project.id="Hangil" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
   <component name="FacetManager">
     <facet type="java-gradle" name="Java-Gradle">
       <configuration>

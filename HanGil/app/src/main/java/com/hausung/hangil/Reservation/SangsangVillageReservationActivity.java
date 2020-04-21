@@ -14,7 +14,11 @@ public class SangsangVillageReservationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_sangsangvillage_reservation);
+=======
+        setContentView(R.layout.activity_sangsagnvillage_reservation);
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
 
         //세미나실 현황 페이지로 이동
         Button confrimAndToMap = (Button) findViewById(R.id.confrimAndToMap);

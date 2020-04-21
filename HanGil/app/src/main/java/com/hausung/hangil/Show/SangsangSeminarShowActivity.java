@@ -15,7 +15,11 @@ public class SangsangSeminarShowActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_sangsang_seminar_show);
+=======
+        setContentView(R.layout.activity_sangsag_seminar_show);
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
 
         //세미나실 예약 페이지로 이동
         Button toReservationPage = (Button) findViewById(R.id.toReservation);

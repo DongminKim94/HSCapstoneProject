@@ -5,10 +5,8 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="735bec45-48aa-4aa2-a93c-e6f86c28a421" name="Default Changelist" comment="user delete(사용자 삭제,탈퇴)">
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -22,11 +20,138 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_chrisbanes_PhotoView_2_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_chrisbanes_PhotoView_2_1_3_aar.xml" afterDir="false" />
+=======
+    <list default="true" id="dee542e1-d5a0-49ac-b170-e45ef50d99bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HanGil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HanGil.iml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_github_chrisbanes_PhotoView_2_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_impl_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_alpha02_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_auto_value_auto_value_annotations_1_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_auth_18_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_auth_interop_18_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_3_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_components_16_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_database_18_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_database_collection_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_iid_20_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_18_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_google_firebase_firebase_storage_16_0_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_nineoldandroids_library_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_r0adkll_slidableactivity_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/HanGil-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MapActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPage/MyPageSecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPage/MyPageSecondActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPageSecondActivity.java.rej" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/MoreActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/MoreActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,41 +172,11 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HanGil" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HanGil" type="f1a62948:ProjectNode" />
-                <item name="HanGil" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HanGil" type="f1a62948:ProjectNode" />
-                <item name="HanGil" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HanGil" type="f1a62948:ProjectNode" />
-                <item name="HanGil" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="android" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -89,10 +184,109 @@
         <option value="Class" />
       </list>
     </option>
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/SangsangReservationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/SangsangVillageReservationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Show/LibraryStudyRoomShowActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Show/SangsangSeminarShowActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Show/SangsangVillageSeminarShowActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/ReservationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/ResetPasswordActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/SplashActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/StartActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1aNB38Hv9mgqEWI2bTweIsiZfmQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -105,17 +299,55 @@
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPage/MyPageSecondActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/MoreActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MapActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="12" />
+    <option name="y" value="12" />
+    <option name="width" value="1080" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hangil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hangil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="Pixel_2_API_26" />
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hausung.hangil" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SAMSUNG\AndroidStudioProjects\HanGil\app\src\main\res\layout" />
-      <recent name="C:\Users\SAMSUNG\AndroidStudioProjects\HanGil\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\SAMSUNG\AndroidStudioProjects\HanGil\app\src\main\java\com\hausung\hangil" />
-      <recent name="C:\Users\SAMSUNG\AndroidStudioProjects\HanGil\app" />
+      <recent name="C:\Users\SAMSUNG\AndroidStudioProjects\Hangil\app" />
+      <recent name="C:\Users\SAMSUNG\AndroidStudioProjects\Hangil\app\src\main\java\com\hausung\hangil" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -240,6 +472,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="HanGil [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -265,20 +498,23 @@
         <item itemvalue="Gradle.HanGil [signingReport]" />
       </list>
     </recent_temporary>
+=======
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="735bec45-48aa-4aa2-a93c-e6f86c28a421" name="Default Changelist" comment="" />
-      <created>1586519545110</created>
+      <changelist id="dee542e1-d5a0-49ac-b170-e45ef50d99bf" name="Default Changelist" comment="" />
+      <created>1587452194696</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586519545110</updated>
+      <updated>1587452194696</updated>
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -323,5 +559,196 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+=======
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33522266" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5020243" side_tool="true" visible="true" weight="0.5533808" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.4979757" visible="true" weight="0.5533808" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3285968" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/hangil.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/map.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPageSecondActivity.java.rej" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MapActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Map/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPage/MyPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPage/VersionViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/MyPage/MyPageSecondActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/LibraryReservationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/MoreActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/SangsangReservationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Reservation/SangsangVillageReservationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Show/LibraryStudyRoomShowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Show/SangsangSeminarShowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/Show/SangsangVillageSeminarShowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/ReservationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/ResetPasswordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hausung/hangil/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 79f3583f80b6e979fe81cd985d5b9f807b841418
   </component>
 </project>
