@@ -1,40 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <Button
-        android:id="@+id/toSeminarShow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="80dp"
-        android:text="각 위치 클릭하면 대여실 현황 페이지로 이동"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        android:id="@+id/toSangsangVillageSeminaroom"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/border2" />
+
+    <Button
+        android:id="@+id/toSansangSeminaroom"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/border2" />
+
+    <Button
+        android:id="@+id/toSchoolLibraryStudyRoom"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border2" />
 
     <Button
         android:id="@+id/toMyPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:text="myPage 가기"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="280dp"
-        android:text="학교 지도 화면"
-        android:textSize="26dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

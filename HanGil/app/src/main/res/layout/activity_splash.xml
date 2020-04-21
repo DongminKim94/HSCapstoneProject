@@ -8,10 +8,12 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:scaleType="fitXY"
-        android:src="@drawable/hangil" />
+        android:layout_weight="3.5"
+        android:src="@drawable/hangil"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -20,6 +22,7 @@
         android:text="Hansung University"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
+        android:layout_weight="1"
         android:textSize="30dp" />
 
 
