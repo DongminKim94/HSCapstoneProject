@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HanGil.iml" filepath="$PROJECT_DIR$/HanGil.iml" group="HanGil" />
-      <module fileurl="file://$PROJECT_DIR$/app/HanGil-app.iml" filepath="$PROJECT_DIR$/app/HanGil-app.iml" group="HanGil/app" />
+      <module fileurl="file://$PROJECT_DIR$/Hangil.iml" filepath="$PROJECT_DIR$/Hangil.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

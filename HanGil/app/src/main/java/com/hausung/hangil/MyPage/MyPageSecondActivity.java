@@ -15,12 +15,9 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
-<<<<<<< HEAD:HanGil/app/src/main/java/com/hausung/hangil/MyPage/MyPageSecondActivity.java
 import com.hausung.hangil.R;
 import com.hausung.hangil.StartActivity;
-=======
 import com.google.firebase.auth.FirebaseUser;
->>>>>>> 73f90ddbb5068dfec5836d7f75f1aa28f587447c:HanGil/app/src/main/java/com/hausung/hangil/MyPageSecondActivity.java
 import com.r0adkll.slidr.Slidr;
 import com.r0adkll.slidr.model.SlidrInterface;
 
