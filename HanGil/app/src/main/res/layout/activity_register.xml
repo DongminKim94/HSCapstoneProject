@@ -5,7 +5,7 @@
     android:background="@color/background_material_light"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".Reservation.SangsangVillageReservationActivity">
 
     <include
         android:id="@+id/toolbar"

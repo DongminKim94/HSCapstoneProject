@@ -1,4 +1,4 @@
-package com.hausung.hangil;
+package com.hausung.hangil.MyPage;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +15,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
+import com.hausung.hangil.R;
+import com.hausung.hangil.StartActivity;
 import com.google.firebase.auth.FirebaseUser;
 import com.r0adkll.slidr.Slidr;
 import com.r0adkll.slidr.model.SlidrInterface;
@@ -63,7 +65,6 @@ public class MyPageSecondActivity extends AppCompatActivity {
         deleteAndToStart.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        //사용자 재인증하기
                         // Get auth credentials from the user for re-authentication. The example below shows
                         // email and password credentials but there are multiple possible providers,
                         // such as GoogleAuthProvider or FacebookAuthProvider.
