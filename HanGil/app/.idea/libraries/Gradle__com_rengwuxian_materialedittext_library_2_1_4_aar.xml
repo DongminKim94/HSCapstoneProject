@@ -1,11 +1,19 @@
 <component name="libraryTable">
   <library name="Gradle: com.rengwuxian.materialedittext:library:2.1.4@aar">
     <ANNOTATIONS>
+<<<<<<< HEAD:HanGil/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f70989e75a871ed256004c053e5e976/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f70989e75a871ed256004c053e5e976/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f70989e75a871ed256004c053e5e976/res" />
+=======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bce3fc24e84ce9d3da3f4c130feb9fc/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bce3fc24e84ce9d3da3f4c130feb9fc/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bce3fc24e84ce9d3da3f4c130feb9fc/res" />
+>>>>>>> 481b29e3d2e9545d32696395d016bc37913135d3:HanGil/app/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml
     </CLASSES>
     <JAVADOC />
     <SOURCES>

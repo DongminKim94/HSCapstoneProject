@@ -15,7 +15,6 @@ import com.hausung.hangil.Reservation.SangsangVillageReservationActivity;
 public class StartActivity extends AppCompatActivity {
 
     Button login, register;
-
     FirebaseUser firebaseUser;
 
     @Override
@@ -23,13 +22,13 @@ public class StartActivity extends AppCompatActivity {
         super.onStart();
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-
+/*
         //check if user is null
         if (firebaseUser != null){
             Intent intent = new Intent(StartActivity.this, MapActivity.class);
             startActivity(intent);
             finish();
-        }
+        }*/
     }
 
     @Override
@@ -53,5 +52,13 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(new Intent(StartActivity.this, SangsangVillageReservationActivity.class));
             }
         });
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        moveTaskToBack(true);
+        android.os.Process.killProcess(android.os.Process.myPid());
+        System.exit(1);
     }
 }

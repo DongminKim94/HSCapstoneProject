@@ -1,11 +1,19 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.media:media:1.0.0@aar">
     <ANNOTATIONS>
+<<<<<<< HEAD:HanGil/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8abb6d227a0df9f411426d8a4931b00/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8abb6d227a0df9f411426d8a4931b00/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8abb6d227a0df9f411426d8a4931b00/res" />
+=======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1aaff6143a4250ba1c513c79993034/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1aaff6143a4250ba1c513c79993034/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1aaff6143a4250ba1c513c79993034/jars/classes.jar!/" />
+>>>>>>> 481b29e3d2e9545d32696395d016bc37913135d3:HanGil/app/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml
     </CLASSES>
     <JAVADOC />
     <SOURCES>

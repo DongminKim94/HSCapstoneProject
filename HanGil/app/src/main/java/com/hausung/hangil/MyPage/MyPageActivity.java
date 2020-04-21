@@ -28,7 +28,6 @@ public class MyPageActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         //MyPageSecondActivity로 가는 인텐트 생성
                         Intent intent = new Intent(getApplication(), MyPageSecondActivity.class);
-
                         startActivity(intent);
                     }
                 }
@@ -41,7 +40,6 @@ public class MyPageActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         //MoreActivity로 가는 인텐트 생성
                         Intent intent = new Intent(getApplication(), MoreActivity.class);
-
                         startActivity(intent);
                     }
                 }

@@ -1,11 +1,19 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.material:material:1.1.0-alpha02@aar">
     <ANNOTATIONS>
+<<<<<<< HEAD:HanGil/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_alpha02_aar.xml
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b06c8171657ce3bbe605ed49eb521de1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b06c8171657ce3bbe605ed49eb521de1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b06c8171657ce3bbe605ed49eb521de1/res" />
+=======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d77e126162bf2e562263ec3fb91efc2/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d77e126162bf2e562263ec3fb91efc2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d77e126162bf2e562263ec3fb91efc2/res" />
+>>>>>>> 481b29e3d2e9545d32696395d016bc37913135d3:HanGil/app/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_alpha02_aar.xml
     </CLASSES>
     <JAVADOC />
     <SOURCES>
