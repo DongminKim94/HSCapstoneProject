@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.r0adkll:slidableactivity:2.1.0@aar">
+    <CLASSES>
+<<<<<<< HEAD:HanGil/.idea/libraries/Gradle__com_r0adkll_slidableactivity_2_1_0_aar.xml
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea9db5f128ecea58d73d2b4e4277ef48/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea9db5f128ecea58d73d2b4e4277ef48/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/459c350aebc8c98c604a20e660326117/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/459c350aebc8c98c604a20e660326117/res" />
+>>>>>>> 481b29e3d2e9545d32696395d016bc37913135d3:HanGil/app/.idea/libraries/Gradle__com_r0adkll_slidableactivity_2_1_0_aar.xml
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.r0adkll/slidableactivity/2.1.0/f7934a352d1356fd0d1a9b0b9c6cbca4f8cf53d/slidableactivity-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
