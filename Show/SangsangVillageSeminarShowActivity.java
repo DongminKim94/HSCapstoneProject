@@ -16,7 +16,7 @@ public class SangsangVillageSeminarShowActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sangsangvillage_seminar_show);
-        String[] array = {"sangsangVillage_First","sangsangVillage_Second","sangsangVillage_Thrid"};
+        String[] array = {"sangsangVillage_First","sangsangVillage_Second","sangsangVillage_Third"};
         //스터디룸 예약 페이지로 이동
         Button SangsangVillage_FirsttoReservation = (Button) findViewById(R.id.sangsangVillage_FirsttoReservation);
         SangsangVillage_FirsttoReservation.setOnClickListener(
@@ -45,7 +45,7 @@ public class SangsangVillageSeminarShowActivity extends AppCompatActivity {
                 new Button.OnClickListener() {
                     public void onClick(View v) {
                         Intent intent = new Intent(getApplication(), SangsangVillageReservationActivity.class);
-                        intent.putExtra("name","sangsangVillage_Thrid");
+                        intent.putExtra("name","sangsangVillage_Third");
                         startActivity(intent);
                     }
                 }

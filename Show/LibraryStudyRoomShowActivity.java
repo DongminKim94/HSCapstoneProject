@@ -16,7 +16,7 @@ public class LibraryStudyRoomShowActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_librarystudyroom_show);
-        String[] array = {"library_First","library_Second","library_Thrid"};
+        String[] array = {"library_First","library_Second","library_Third"};
         //스터디룸 예약 페이지로 이동
         Button library_FirsttoReservation = (Button) findViewById(R.id.library_FirsttoReservation);
         library_FirsttoReservation.setOnClickListener(
@@ -48,7 +48,7 @@ public class LibraryStudyRoomShowActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         // LibraryReservationActivity로 가는 인텐트 생성
                         Intent intent = new Intent(getApplication(), LibraryReservationActivity.class);
-                        intent.putExtra("name","library_Thrid");
+                        intent.putExtra("name","library_Third");
                         startActivity(intent);
                     }
                 }

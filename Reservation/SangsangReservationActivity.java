@@ -29,7 +29,7 @@ public class SangsangReservationActivity extends AppCompatActivity {
     DatabaseReference dbRef;
 
     Room room;
-    Button checkin;
+    Button calendarBtn;
 
     Calendar c;
     DatePickerDialog dp;
@@ -46,11 +46,9 @@ public class SangsangReservationActivity extends AppCompatActivity {
         check_in = findViewById(R.id.checkinText);
         btn = findViewById(R.id.confrimAndToMap);
 
-        checkin = (Button) findViewById(R.id.checkin);
+        calendarBtn = (Button) findViewById(R.id.calendar);
 
-        Calendar calendar = Calendar.getInstance();
-
-        checkin.setOnClickListener(new View.OnClickListener() {
+        calendarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -91,6 +89,8 @@ public class SangsangReservationActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(SangsangReservationActivity.this, MapActivity.class);
                     startActivity(intent);
+                }else{
+                    Toast.makeText(SangsangReservationActivity.this, "Sangsang Reserved Failed", Toast.LENGTH_LONG).show();
                 }
 
             }
@@ -100,7 +100,6 @@ public class SangsangReservationActivity extends AppCompatActivity {
     }  private boolean validateForm() {
 
         String ch_in = check_in.getText().toString();
-
         if (ch_in.isEmpty()) {
             check_in.setError("Field can't be empty");
             return false;

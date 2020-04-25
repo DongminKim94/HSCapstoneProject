@@ -27,7 +27,7 @@ public class SangsangVillageReservationActivity extends AppCompatActivity {
     Button btn;
     DatabaseReference dbRef;
     Room room;
-    Button checkin;
+    Button calendarBtn;
 
     Calendar c;
     DatePickerDialog dp;
@@ -44,11 +44,9 @@ public class SangsangVillageReservationActivity extends AppCompatActivity {
         check_in = findViewById(R.id.checkinText);
         btn = findViewById(R.id.confrimAndToMap);
 
-        checkin = (Button) findViewById(R.id.checkin);
+        calendarBtn = (Button) findViewById(R.id.calendar);
 
-        Calendar calendar = Calendar.getInstance();
-
-        checkin.setOnClickListener(new View.OnClickListener() {
+        calendarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -88,6 +86,8 @@ public class SangsangVillageReservationActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(SangsangVillageReservationActivity.this, MapActivity.class);
                     startActivity(intent);
+                }else{
+                    Toast.makeText(SangsangVillageReservationActivity.this, "SangsangVillage Reserved Failed", Toast.LENGTH_LONG).show();
                 }
 
             }
