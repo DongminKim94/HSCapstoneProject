@@ -15,41 +15,19 @@ public class SangsangVillageSeminarShowActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sangsangvillage_seminar_show);
-        String[] array = {"sangsangVillage_First","sangsangVillage_Second","sangsangVillage_Third"};
-        //스터디룸 예약 페이지로 이동
-        Button SangsangVillage_FirsttoReservation = (Button) findViewById(R.id.sangsangVillage_FirsttoReservation);
-        SangsangVillage_FirsttoReservation.setOnClickListener(
-                new Button.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent intent = new Intent(getApplication(), SangsangVillageReservationActivity.class);
-                        intent.putExtra("name","sangsangVillage_First");
-                        startActivity(intent);
-                    }
-                }
-        );
-        //스터디룸 예약 페이지로 이동
-        Button SangsangVillage_SecondtoReservation = (Button) findViewById(R.id.sangsangVillage_SecondtoReservation);
-        SangsangVillage_SecondtoReservation.setOnClickListener(
-                new Button.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent intent = new Intent(getApplication(), SangsangVillageReservationActivity.class);
-                        intent.putExtra("name","sangsangVillage_Second");
-                        startActivity(intent);
-                    }
-                }
-        );
-        //스터디룸 예약 페이지로 이동
-        Button SangsangVillage_ThirdtoReservation = (Button) findViewById(R.id.sangsangVillage_ThirdtoReservation);
-        SangsangVillage_ThirdtoReservation.setOnClickListener(
-                new Button.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent intent = new Intent(getApplication(), SangsangVillageReservationActivity.class);
-                        intent.putExtra("name","sangsangVillage_Third");
-                        startActivity(intent);
-                    }
-                }
-        );
+        setContentView(R.layout.activity_sangsagnvillage_seminar_show);
 
+        //세미나실 예약 페이지로 이동
+        Button toReservationPage = (Button) findViewById(R.id.toReservation);
+        toReservationPage.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        //ReservationActivity로 가는 인텐트 생성
+                        Intent intent = new Intent(getApplication(), SangsangVillageReservationActivity.class);
+
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 }

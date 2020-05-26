@@ -7,8 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.hausung.hangil.MoreActivity;
 import com.hausung.hangil.R;
+import com.hausung.hangil.Reservation.MoreActivity;
 import com.r0adkll.slidr.Slidr;
 import com.r0adkll.slidr.model.SlidrInterface;
 

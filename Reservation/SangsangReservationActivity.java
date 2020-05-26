@@ -1,110 +1,32 @@
 package com.hausung.hangil.Reservation;
 
-import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
-import android.widget.EditText;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.hausung.hangil.Map.MapActivity;
 import com.hausung.hangil.R;
-import com.hausung.hangil.Room;
-import com.r0adkll.slidr.Slidr;
-import com.r0adkll.slidr.model.SlidrInterface;
-
-import java.util.Calendar;
 
 public class SangsangReservationActivity extends AppCompatActivity {
-    private SlidrInterface slidr;
-
-    EditText check_in;
-    Button btn;
-    DatabaseReference dbRef;
-
-    Room room;
-    Button calendarBtn;
-
-    Calendar c;
-    DatePickerDialog dp;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //스와이프 코드
-        slidr = Slidr.attach(this);
-
         setContentView(R.layout.activity_sangsang_reservation);
-        Intent intent = getIntent(); /*데이터 수신*/
-        final String name = intent.getExtras().getString("name"); /*String형*/
-        check_in = findViewById(R.id.checkinText);
-        btn = findViewById(R.id.confrimAndToMap);
 
-        calendarBtn = (Button) findViewById(R.id.calendar);
-
-        calendarBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                c = Calendar.getInstance();
-                int day = c.get(Calendar.DAY_OF_MONTH);
-                int month = c.get(Calendar.MONTH);
-                int year = c.get(Calendar.YEAR);
-
-                dp = new DatePickerDialog(SangsangReservationActivity.this, new DatePickerDialog.OnDateSetListener() {
-                    @Override
-                    public void onDateSet(DatePicker datePicker, int Year, int Month, int Date) {
-
-                        check_in.setText(Date + "/" + (Month+1) + "/" + Year);
+        //세미나실 현황 페이지로 이동
+        Button confrimAndToMap = (Button) findViewById(R.id.confrimAndToMap);
+        confrimAndToMap.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        //MapActivity로 가는 인텐트 생성
+                        Intent intent = new Intent(getApplication(), MapActivity.class);
+                        //파이어베이스에 정보 저장하기
+                        startActivity(intent);
                     }
-
-                }, day, month, year);
-
-                dp.show();
-            }
-
-
-        });
-        //send data to database   세미나실 현황 페이지로 이동
-        room = new Room();
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                boolean check = validateForm();
-
-                if (check == true) {
-                    ///////////////////////dbRef 주의/////////////////////////
-                    dbRef = FirebaseDatabase.getInstance().getReference().child("SangsangRoom");
-                    room.setCheckinDate(check_in.getText().toString().trim());
-                    dbRef.child(name).setValue(room);
-                    Toast.makeText(SangsangReservationActivity.this, "Sangsang Reserved Successfully", Toast.LENGTH_LONG).show();
-
-                    Intent intent = new Intent(SangsangReservationActivity.this, MapActivity.class);
-                    startActivity(intent);
-                }else{
-                    Toast.makeText(SangsangReservationActivity.this, "Sangsang Reserved Failed", Toast.LENGTH_LONG).show();
                 }
-
-            }
-        });
-
-
-    }  private boolean validateForm() {
-
-        String ch_in = check_in.getText().toString();
-        if (ch_in.isEmpty()) {
-            check_in.setError("Field can't be empty");
-            return false;
-        } else {
-            return true;
-        }
+        );
     }
 }

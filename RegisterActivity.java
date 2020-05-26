@@ -1,4 +1,5 @@
 package com.hausung.hangil;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -17,14 +18,12 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.r0adkll.slidr.Slidr;
-import com.r0adkll.slidr.model.SlidrInterface;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 import java.util.HashMap;
 
 public class RegisterActivity extends AppCompatActivity {
-    private SlidrInterface slidr;
+
     MaterialEditText username, email, password;
     Button btn_register;
 
@@ -35,8 +34,6 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        //스와이프 코드
-        slidr = Slidr.attach(this);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -57,23 +54,17 @@ public class RegisterActivity extends AppCompatActivity {
                 String txt_email = email.getText().toString();
                 String txt_password = password.getText().toString();
 
-                //필수 입력 정보를 충족하지 않을 때 Toast
                 if (TextUtils.isEmpty(txt_username) || TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)){
                     Toast.makeText(RegisterActivity.this, "All fileds are required", Toast.LENGTH_SHORT).show();
-                }
-                //비밀번호 길이조건을 충족하지 않을 때 Toast
-                else if (txt_password.length() < 6 ){
+                } else if (txt_password.length() < 6 ){
                     Toast.makeText(RegisterActivity.this, "password must be at least 6 characters", Toast.LENGTH_SHORT).show();
-                }
-                //필수 입력 정보를 충족할 때
-                else {
+                } else {
                     register(txt_username, txt_email, txt_password);
                 }
             }
         });
     }
 
-    //회원가입정보
     private void register(final String username, String email, String password){
 
         auth.createUserWithEmailAndPassword(email, password)
@@ -106,7 +97,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 }
                             });
                         } else {
-                            Toast.makeText(RegisterActivity.this, "You can't register with this email or password", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "You can't register woth this email or password", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

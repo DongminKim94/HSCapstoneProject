@@ -1,3 +1,4 @@
+/*
 package com.hausung.hangil;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,7 +27,7 @@ public class MoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_more);
         //스와이프 코드
         slidr = Slidr.attach(this);
-        cIn = findViewById(R.id.checkInDate);
+        //cIn = findViewById(R.id.checkInDate);
 
         ///////////////////////dbRef 주의/////////////////////////
         dbRef = FirebaseDatabase.getInstance().getReference().child("Room").child("1");
@@ -48,3 +49,4 @@ public class MoreActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+*/
