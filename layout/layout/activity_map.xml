@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_material_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/toSangsangVillageSeminaroom"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/border2" />
+
+    <Button
+        android:id="@+id/toSansangSeminaroom"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/border2" />
+
+    <Button
+        android:id="@+id/toSchoolLibraryStudyRoom"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border2" />
+
+    <Button
+        android:id="@+id/toMyPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="myPage 가기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>

@@ -46,7 +46,7 @@ public class LibraryStudyRoomShowActivity extends AppCompatActivity {
         toReservationPage.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        // LibraryReservationActivity로 가는 인텐트 생성
+                        //ReservationActivity로 가는 인텐트 생성
                         Intent intent = new Intent(getApplication(), LibraryReservationActivity.class);
                         startActivity(intent);
                     }

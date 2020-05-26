@@ -61,9 +61,6 @@ public class LibraryReservationActivity extends AppCompatActivity {
                         id = mStrStudentid.getText().toString();
                         number = mStrNumber.getText().toString();
 
-                        TextView textResult = (TextView) findViewById(R.id.textResult);
-                        textResult.setText("예약자 이름 : " + name + "학번 : " +id  +
-                                "이용인원 : " + number +"명" + "시간 : " + mStrTime + "~" + mStrFinishTime + "날짜 : " + mStrDate );
                         //MapActivity로 가는 인텐트 생성
                         Intent intent = new Intent(getApplication(), MapActivity.class);
                         //파이어베이스에 정보 저장하기
@@ -96,31 +93,8 @@ public class LibraryReservationActivity extends AppCompatActivity {
                 }
         );
 
-        //도서관 스터디룸 현황 페이지로 이동
-        Button confrimAndToMap = (Button) findViewById(R.id.confrimAndToMap);
-        confrimAndToMap.setOnClickListener(
-                new Button.OnClickListener() {
-                    public void onClick(View v) {
-
-                    }
-                }
-        );
-
 
     }
-
-   /* private void updateResult(){
-        String name = mStrName.getText().toString();
-        String id = mStrStudentid.getText().toString();
-        String number = mStrNumber.getText().toString();
-        int time = Integer.parseInt(mTime.getText().toString());
-        int finishtime = time + Integer.parseInt(mStrTime);
-
-        TextView textResult = (TextView) findViewById(R.id.textResult);
-        textResult.setText("예약자 이름 : " + name + "학번 : " +id  +
-                "이용인원 : " + number  + "시간 : " + mStrTime + "날짜 : " + mStrDate + "~" + finishtime );
-
-    }*/
 
 
     public void mOnClick(View v){
@@ -144,7 +118,6 @@ public class LibraryReservationActivity extends AppCompatActivity {
         @Override
         public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
             mStrDate = String.format("%d년 %d월 %d일", year,month+1,dayOfMonth);
-            //updateResult();
         }
     };
 
@@ -154,7 +127,6 @@ public class LibraryReservationActivity extends AppCompatActivity {
             int time = Integer.parseInt(mTime.getText().toString());
             mStrTime = String.format("%d시 %d분", hourOfDay, minute);
             mStrFinishTime =  String.format("%d시 %d분", hourOfDay+time, minute);
-            //updateResult();
         }
     };
 

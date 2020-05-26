@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="60dp"
+        android:text="상상빌리지 세미나실 예약"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="8dp"
+            android:text="예약자 이름"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_marginStart="83dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="홍길동" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="8dp"
+            android:text="학번"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/studentid"
+            android:layout_marginStart="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1791234" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="8dp"
+            android:text="시간 단위"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_marginStart="105dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="8dp"
+            android:text="이용인원"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_marginStart="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/SelectDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="30dp"
+            android:onClick="mOnClick"
+            android:text="날짜 선택"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/SelectTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:onClick="mOnClick"
+            android:text="시간 선택"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="20dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="result" />
+
+    <Button
+        android:id="@+id/confrimAndToMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="40dp"
+        android:text="신청(학교 지도 화면으로 이동)" />
+</LinearLayout>
